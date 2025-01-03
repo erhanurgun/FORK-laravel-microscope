@@ -38,6 +38,8 @@ trait CommandsRegistry
         Commands\CheckDynamicWhereMethod::class,
         Features\ListModels\ListModelsArtisanCommand::class,
         Commands\CheckEmptyComments::class,
+        Commands\CheckExtraSemiColons::class,
+        Commands\EnforceArrowFunctions::class,
     ];
 
     private function registerCommands()
